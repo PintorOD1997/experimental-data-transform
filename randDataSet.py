@@ -17,7 +17,7 @@ def random_data(filas: int):
 
     # Función para generar una fecha y hora aleatorias
     def generar_fecha_hora():
-        fecha = datetime.datetime(year=2023, month=random.randint(1, 12), day=random.randint(1, 28))
+        fecha = datetime.date(year=2023, month=random.randint(1, 12), day=random.randint(1, 28))
         hora = datetime.time(hour=random.randint(0, 23), minute=random.randint(0, 59), second=random.randint(0, 59))
         return fecha, hora
 
