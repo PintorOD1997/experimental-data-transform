@@ -1,0 +1,7 @@
+Para instalar el módulo, puedes seguir los siguientes pasos:
+
+Copia el archivo .tar.gz en la máquina donde deseas instalar el módulo.
+
+Extrae el contenido del archivo .tar.gz utilizando el comando tar -xzvf archivo.tar.gz. Esto creará un directorio con el nombre del paquete y la versión.
+
+Accede al directorio creado y ejecuta el comando python setup.py install. Esto instalará el módulo en el sistema.
